@@ -1,0 +1,27 @@
+#login {
+    background-color: #d4acf9; /* Rosa */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Altura de la ventana completa */
+    border: dashed;
+}
+
+.controls {
+    width: 80%;
+    background: white;
+    padding: 10px;
+    margin: 5px;
+    border: solid aqua;
+    font-size: 15px;
+}
+
+.login {
+    background-color: white;
+    border-radius: 15px;     /* Borde redondeado */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */
+    padding: 20px;
+    text-align: center;
+    width: 600px;            /* Ancho del cuadro */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

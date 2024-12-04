@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.registro{
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 400px;
+    background: #d4acf9;
+    padding: 30px;
+    border-radius: 4px;
+    color: white;
+    box-shadow: 7px 13px 37px black;
+}
+
+.registro h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: black;
+}
+
+.controls {
+    width: 100%;
+    background: white;
+    padding: 10px;
+    margin: 5px;
+    border: solid aqua;
+    font-size: 15px;
+}
+
+.registro p{
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.registro a:hover{
+    color: rgb(88, 61, 243);
+    text-decoration: underline;
+}
+
+.registro .boton{
+    width: 100%;
+    background: blue;
+    color: white;
+    padding: 8px;
+    margin: 16px 0;
+}
+
+.registro a{
+    color: white;
+    text-decoration: none;
+}

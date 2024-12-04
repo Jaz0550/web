@@ -1,0 +1,69 @@
+header, footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+.cabezera{
+    border: solid black;
+    background: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    
+}
+.cabezera header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav{
+    background-color: #d4acf9;
+    display: flex;
+    justify-content: right;
+}
+
+nav ul li{
+    float: left;
+    list-style: none;
+    margin: 10px;
+    line-height: 30px;
+}
+/* Agrega estilos básicos aquí si no los tienes definidos en el archivo CSS */
+ body 
+ {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background: #ffffff;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.cita {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+}
+
+.cita p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+.cita strong {
+    color: #555;
+}
