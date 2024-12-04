@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Citas</title>
+    <link rel="stylesheet" href="/estilo/citasEstilo.css">
+    <script src="/js/citas.js" defer></script>
+
+</head>
+<body>
+    <div class="cabezera">
+        <header>
+            <h1>Deleite Culinario</h1>
+            <a href="http://127.0.0.1:3000/public/index.html">
+                <img width="150px" src="/Deleite_Culinario_png.png"/>
+            </a>
+        </header>
+
+        <nav>
+            <ul>
+                <li>
+                    <a href="http://127.0.0.1:3000/public/citascancel.html">Citas Canceladas</a>
+                </li>
+                <li>
+                    <a href="http://127.0.0.1:3000/public/menu.html">Menu</a>
+                </li>
+                <li>
+                    <a href="http://127.0.0.1:3000/public/citas.html">Citas</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <div id="content">
+        <h1>Mis Citas</h1>
+        <div id="citas-container"></div>
+        <p id="no-citas-message" style="display: none;">
+          Por favor agenda uno de nuestros paquetes del 
+          <a href="http://127.0.0.1:3000/public/menu.html">Menú</a>.
+        </p>
+      </div>
+</body>
+</html>
